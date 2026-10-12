@@ -1,25 +1,37 @@
 # Simple Interest Calculator
 
-A lightweight command-line utility written in Bash that calculates simple interest from user input.
+Project: Introduction to Git and GitHub - Final Project
+
+A simple interest calculator that computes simple interest from user input: the principal amount, the annual rate of interest, and the time period in years.
 
 ## Formula
 
-$$\text{Simple Interest} = \frac{P \times R \times T}{100}$$
+```
+Simple Interest = (Principal * Rate * Time) / 100
+```
 
 Where:
 
-- **P** = Principal amount
-- **R** = Annual rate of interest
-- **T** = Time period in years
+- Principal = the principal amount of money
+- Rate = the annual rate of interest (percent per year)
+- Time = the time period in years
 
-## Usage
+## Input fields
+
+The calculator asks for three inputs:
+
+1. Principal (principal amount)
+2. Rate of interest (annual rate of interest)
+3. Time period (in years)
+
+## How to run
 
 ```bash
 chmod +x simple-interest.sh
 ./simple-interest.sh
 ```
 
-Example run:
+Example:
 
 ```text
 Enter the principal:
@@ -28,14 +40,16 @@ Enter rate of interest per year:
 5
 Enter time period in years:
 2
-The simple interest is: 100
+The simple interest is: 100.00
 ```
 
-## Files
+## Repository files
 
-| File | Purpose |
+| File | Description |
 | --- | --- |
-| `simple-interest.sh` | Bash script that computes simple interest |
+| `simple-interest.sh` | Bash script that computes simple interest from principal, rate and time |
+| `README.md` | Project name and description for this simple interest calculator |
 | `LICENSE` | Apache License 2.0 |
 | `CODE_OF_CONDUCT.md` | Contributor Covenant Code of Conduct |
-| `CONTRIBUTING.md` | Guidelines for contributing |
+| `CONTRIBUTING.md` | Contribution guidelines |
+| `compound_interest.py` | Python compound interest sample |
